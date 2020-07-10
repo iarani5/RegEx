@@ -1,0 +1,26 @@
+*{padding:0;margin:0;}
+h1{  margin-bottom:1em;color:black;text-align: center; font-family:arial;text-shadow:5px 5px 1px orange, -5px -5px 1px #DDF57D;letter-spacing:.1em;font-size:5em;padding-top:1em; height:50px;}
+form h2{font-family:'dk_cosmo_stitchregular';font-size:2em;text-align:center;padding-top:1em;color:white;}
+body{ font: normal 14px/16px Verdana; margin: 0 10%;background: orange; border:black .1em solid;}
+body>div{background: url('../css/colores.png') fixed 100% ;}
+form *{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-size: 12px; color: black }
+form{ overflow: auto; /*background:url("../css/bong2.png") no-repeat top right;*/}
+form div{margin: 1em;}
+h1+p{text-align:center;background:red;padding:1em;}
+form div span{ display: inline-block; width: 120px; text-align: right; padding-right: 10px; }
+form div input{ display: inline-block; width: 300px; border: 1px solid #aaa; cursor:pointer; padding: 6px 9px; border-radius: 8px; color: white;background:black;}
+form div input[type=submit]{margin:2% 35%; border:none; background:none;font-weight:bold;color:white;font-size:2em;cursor:pointer;}
+form div *:focus{ background: black; color: white; border:1px solid yellow; }
+fieldset{ margin:20px 40px;border:none;}
+legend{font-weight:bold;font-size:2em;text-align:left;color:white;margin:1em;}
+span{color:black;font-weight:bold;font-size:1.4em;}
+form fieldset{margin:3em 7em;}
+#datos{background:rgba(255,165,0,0.4);margin:2em 15em;}
+ul{display:inline-block;color:black;}
+img{display:inline-block;margin:0 5em 6em 20%;}
+ul li{margin:.8em 0;font-size:1.5em;font-weight:bold;}
+form fieldset:nth-child(1) legend{text-shadow:2px 2px 1px green;}
+form fieldset:nth-child(2) legend{text-shadow:2px 2px 1px orange;} 
+form fieldset:nth-child(3) legend{text-shadow:2px 2px 1px red;}
+/*legend{ background: #050232; padding: 3px 9px; color: #FFF6B7 ; border-radius:50%;padding:.9em;box-shadow:1px 1px 1px grey;margin-left:2em;}*/
+form fieldset div p{background:white;position:absolute;font-size:1em;padding:.2em;display:inline-block;margin-left:1em;margin-top:.3em;border-radius:5%;color:black;box-shadow:1px 1px 1px grey;}
